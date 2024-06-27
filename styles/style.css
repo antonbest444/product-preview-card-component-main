@@ -13,4 +13,15 @@
   --fnt-size: 14px;
   --fnt-family-montserrat: Montserrat, "Sans serif";
   --fnt-family-fraunces: Fraunces, "Sans serif";
+  --bor-radius: 10px;
+}
+
+html,
+main {
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  background-color: var(--clr-cream);
+  color: var(--clr-dark-blue);
 }
