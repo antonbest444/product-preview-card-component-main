@@ -99,14 +99,20 @@ h4 {
 .prices__block--line {
   position: relative;
   right: 35px;
+  text-decoration: line-through;
 }
 
 .info__section--greenbtn {
   background-color: var(--clr-dark-cyan);
   color: var(--clr-white);
+  border-radius: var(--bor-radius);
   padding: 0.7rem;
   cursor: pointer;
   border: none;
-  border-radius: var(--bor-radius);
   font-weight: 700;
+  transition: 0.15s;
+}
+
+.info__section--greenbtn:active {
+  background-color: hsl(157, 79%, 9%);
 }
