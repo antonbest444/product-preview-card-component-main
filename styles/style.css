@@ -14,15 +14,43 @@
   --fnt-family-montserrat: Montserrat, "Sans serif";
   --fnt-family-fraunces: Fraunces, "Sans serif";
   --bor-radius: 10px;
-  line-height: 1.5;
 }
 
 html,
 main {
   max-width: 1440px;
-  width: 100%;
+  height: 100vh;
   margin: 0 auto;
   display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: var(--clr-cream);
   color: var(--clr-dark-blue);
+  line-height: 1.5;
+  font-size: 14px;
+}
+
+.card__container {
+  display: flex;
+  width: 70%; /* Réduire la largeur pour les écrans de bureau */
+  margin: 0 auto; /* Centrer horizontalement */
+  font-size: 1rem; /* Légèrement plus grande taille de police */
+  padding: 1rem;
+  gap: 1rem;
+}
+
+@media (max-width: 375px) {
+  .card__container {
+    width: 100%; /* Prend toute la largeur disponible */
+    padding: 1rem; /* Marge intérieure pour l'espace autour du contenu */
+    font-size: 1rem; /* Taille de police de base */
+  }
+}
+
+.image__section {
+  display: flex;
+  justify-content: end;
+}
+.image__section--size {
+  max-width: 70%;
 }
