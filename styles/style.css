@@ -46,18 +46,18 @@ h4 {
 
 .card__container {
   display: flex;
-  width: 70%; /* Réduire la largeur pour les écrans de bureau */
-  margin: 0 auto; /* Centrer horizontalement */
-  font-size: 1rem; /* Légèrement plus grande taille de police */
+  width: 70%;
+  margin: 0 auto;
+  font-size: 1rem;
   padding: 1rem;
   border-radius: var(--bor-radius);
 }
 
 @media (max-width: 375px) {
   .card__container {
-    width: 100%; /* Prend toute la largeur disponible */
-    padding: 1rem; /* Marge intérieure pour l'espace autour du contenu */
-    font-size: 1rem; /* Taille de police de base */
+    width: 100%;
+    padding: 1rem;
+    font-size: 1rem;
   }
 }
 
@@ -103,6 +103,8 @@ h4 {
 }
 
 .info__section--greenbtn {
+  display: flex;
+  justify-content: center;
   background-color: var(--clr-dark-cyan);
   color: var(--clr-white);
   border-radius: var(--bor-radius);
@@ -115,4 +117,8 @@ h4 {
 
 .info__section--greenbtn:active {
   background-color: hsl(157, 79%, 9%);
+}
+
+.info__section--icon {
+  margin-right: 8px;
 }
