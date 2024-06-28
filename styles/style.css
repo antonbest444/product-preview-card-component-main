@@ -36,7 +36,6 @@ main {
   margin: 0 auto; /* Centrer horizontalement */
   font-size: 1rem; /* Légèrement plus grande taille de police */
   padding: 1rem;
-  gap: 1rem;
   border-radius: var(--bor-radius);
 }
 
@@ -54,5 +53,17 @@ main {
 }
 .image__section--size {
   max-width: 70%;
-  border-radius: var(--bor-radius);
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.info__section {
+  background-color: var(--clr-white);
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  max-width: 247px;
+  padding: 1.5rem;
 }
