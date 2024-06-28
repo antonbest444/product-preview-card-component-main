@@ -37,6 +37,7 @@ main {
   font-size: 1rem; /* Légèrement plus grande taille de police */
   padding: 1rem;
   gap: 1rem;
+  border-radius: var(--bor-radius);
 }
 
 @media (max-width: 375px) {
@@ -53,4 +54,5 @@ main {
 }
 .image__section--size {
   max-width: 70%;
+  border-radius: var(--bor-radius);
 }
