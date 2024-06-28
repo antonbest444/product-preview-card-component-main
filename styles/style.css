@@ -82,3 +82,31 @@ h4 {
   max-width: 247px;
   padding: 1.5rem;
 }
+
+.prices__block {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.prices__block--greenfont {
+  font-family: var(--fnt-family-fraunces);
+  color: var(--clr-dark-cyan);
+  font-weight: 700;
+  font-size: 2rem;
+  margin-right: 3.5rem;
+}
+.prices__block--line {
+  position: relative;
+  right: 35px;
+}
+
+.info__section--greenbtn {
+  background-color: var(--clr-dark-cyan);
+  color: var(--clr-white);
+  padding: 0.7rem;
+  cursor: pointer;
+  border: none;
+  border-radius: var(--bor-radius);
+  font-weight: 700;
+}
