@@ -14,6 +14,7 @@
   --fnt-family-montserrat: Montserrat, "Sans serif";
   --fnt-family-fraunces: Fraunces, "Sans serif";
   --bor-radius: 10px;
+  line-height: 1.5;
 }
 
 html,
